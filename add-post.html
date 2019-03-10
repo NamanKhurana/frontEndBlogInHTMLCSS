@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADD POST</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="blog.js"></script>
+    <style>
+    body{
+        background:rgba(247, 213, 213, 0.377);
+    }
+    </style>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="branding">
+                <img
+                    src="https://images.pexels.com/photos/1264939/pexels-photo-1264939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <h1>Veltex</h1>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="blog.html">Home</a></li>
+                    <li><a href="single-post.html">Single Post</a></li>
+                    <li><a href="add-post.html">Add Post</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <aside id="sidebar">
+            <div class="search">
+                <form>
+                    <input type="search" placeholder="Search Our Blog">&nbsp&nbsp<i class="fas fa-search"></i>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="sub-nav">
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">SEO & Marketing</a></li>
+                    <li><a href="#">Cloud & Hosting</a></li>
+                    <li><a href="#">Gadgets</a></li>
+                    <li><a href="#">Software</a></li>
+                </ul>
+            </nav>
+            <div class="ad">
+                <img src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="advertisement">
+            </div>
+        </aside>
+        <section id="content">
+            <div class="add-form">
+                <h2>Add Post</h2>
+                <form>
+                    <p>
+                        <label>Post Title: </label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Category: </label>
+                        <select>
+                            <option value="">Web Development</option>
+                            <option value="">Design</option>
+                            <option value="">Cloud & Hosting</option>
+                            <option value="">Gadgets</option>
+                            <option value="">Software</option>
+                            <option value="">SEO & Marketing</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Body: </label>
+                        <textarea></textarea>
+                    </p>
+                    <p>
+                        <label>Select Image: </label>
+                        <input type="file">
+                    </p>
+                    <button>Add Post</button>
+                </form>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+    </div>
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-right">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#" class="active">Web Development</a></li>
+                        <li><a href="#">Cloud Hosting</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Gadgets</a></li>
+                        <li><a href="#">Software</a></li>
+                        <li><a href="#">SEO & Marketing</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-left">
+                <p class="copy">Copyright &copy; 2014,Veltex</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
